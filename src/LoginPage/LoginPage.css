@@ -104,6 +104,8 @@ body {
   .page {
     font-size: 1rem;
     padding-left: 10%;
+    position: relative;
+    bottom: 60px;
   }
   
   .logindetail {
@@ -119,3 +121,35 @@ body {
     color: black;
   }
   
+/* General styles */
+.Login {
+  /* Your existing styles */
+}
+
+/* Google Sign-In button styles */
+.btn-google {
+  background-color: #4285F4; /* Google blue */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.btn-google:hover {
+  background-color: #357ae8; /* Darker shade on hover */
+}
+
+/* User info styles */
+.user-info {
+  margin-top: 20px;
+}
+
+.user-photo {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
