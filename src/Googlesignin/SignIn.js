@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { useHistory } from 'react-router-dom';
 import { auth, provider } from './config';
@@ -35,4 +36,3 @@ const SignIn = () => {
 };
 
 export default SignIn;
-
